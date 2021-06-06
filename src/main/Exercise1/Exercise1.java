@@ -14,6 +14,5 @@ public class Exercise1 {
         String output = "Hello, ";
         output = output.concat(name + ", nice to meet you!");
         System.out.println(output);
-        
     }
 }
