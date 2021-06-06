@@ -9,8 +9,11 @@ public class Exercise1 {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.print("What is your name?");
+        System.out.print("What is your name? ");
         String name = input.nextLine();
-        System.out.printf("Hello,%s, nice to meet you!", name);
+        String output = "Hello, ";
+        output = output.concat(name + ", nice to meet you!");
+        System.out.println(output);
+        
     }
 }
