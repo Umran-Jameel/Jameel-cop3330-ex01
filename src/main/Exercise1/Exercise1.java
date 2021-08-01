@@ -2,7 +2,6 @@
  *  UCF COP3330 Summer 2021 Assignment 1 Solution
  *  Copyright 2021 Umran Jameel
  */
-
 import java.util.Scanner;
 
 public class Exercise1 {
@@ -14,5 +13,6 @@ public class Exercise1 {
         String output = "Hello, ";
         output = output.concat(name + ", nice to meet you!");
         System.out.println(output);
+
     }
 }
